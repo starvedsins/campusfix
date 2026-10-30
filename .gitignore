@@ -53,3 +53,5 @@ db/introspection/
 .vercel
 .env*
 !.env.example
+
+.github/
