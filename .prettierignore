@@ -1,0 +1,8 @@
+.next
+node_modules
+.data
+src/app/.well-known
+docs/evidence
+test-results
+playwright-report
+package-lock.json

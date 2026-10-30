@@ -1,0 +1,16 @@
+flowchart TD
+  n1([1 Start])
+  n2{2 Value present?}
+  n3[3 Convert to text]
+  n4{4 Formula prefix?}
+  n5[5 Add apostrophe]
+  n6[6 Quote and escape]
+  n7([7 Exit])
+  n1 --> n2
+  n2 -->|Yes| n3
+  n2 -->|No| n4
+  n3 --> n4
+  n4 -->|Yes| n5
+  n4 -->|No| n6
+  n5 --> n6
+  n6 --> n7

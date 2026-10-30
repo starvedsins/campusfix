@@ -1,0 +1,16 @@
+{
+  "runAt": "2026-10-30T20:20:56.177Z",
+  "passed": true,
+  "database": "PostgreSQL 16 in isolated Docker container campusfix-check-db-1",
+  "application": "Next.js production server on local port 3002",
+  "operations": [
+    "Create a ticket with a validated PNG",
+    "Read its private photo and ticket using the real HTTP API",
+    "Stop the application server",
+    "Restart the PostgreSQL container",
+    "Start a new application process",
+    "Read using the persisted session and compare the ticket, attachment metadata, and photo hash"
+  ],
+  "ticketId": "CF-2026-1053",
+  "photoSha256": "98b185570d3cf519246f3826087d594d45042a1abac460ce079d651e7f8cac5a"
+}

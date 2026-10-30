@@ -1,0 +1,16 @@
+flowchart TD
+  n1([1 Start])
+  n2{2 Priority P1?}
+  n3[3 4 hours]
+  n4{4 Priority P2?}
+  n5[5 24 hours]
+  n6[6 72 hours]
+  n7([7 Exit])
+  n1 --> n2
+  n2 -->|Yes| n3
+  n2 -->|No| n4
+  n3 --> n7
+  n4 -->|Yes| n5
+  n4 -->|No| n6
+  n5 --> n7
+  n6 --> n7

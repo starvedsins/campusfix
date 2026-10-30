@@ -1,0 +1,43 @@
+{
+  "runAt": "2026-10-30T20:16:14.488Z",
+  "mode": "local production build",
+  "environment": {
+    "platform": "win32",
+    "cpu": "AMD Ryzen 5 7535HS with Radeon Graphics        ",
+    "logicalCpus": 12,
+    "totalMemoryGb": 31,
+    "node": "v26.12.1",
+    "postgres": "16.15"
+  },
+  "scenario": "500 simultaneous authenticated dashboard requests. Clients share one demo account. No login load or hosted load was tested.",
+  "api": {
+    "samples": 500,
+    "minMs": 184,
+    "p50Ms": 1281,
+    "p95Ms": 1342,
+    "maxMs": 1354,
+    "failed": 0,
+    "elapsedMs": 1406,
+    "targetP95Ms": 2000,
+    "targetMet": true
+  },
+  "database": {
+    "samples": 100,
+    "minMs": 0,
+    "p50Ms": 0,
+    "p95Ms": 1,
+    "maxMs": 4,
+    "query": "Latest 25 reports with category and location joins",
+    "targetP95Ms": 500,
+    "targetMet": true
+  },
+  "navigation": {
+    "samples": 5,
+    "minMs": 86,
+    "p50Ms": 112,
+    "p95Ms": 435,
+    "maxMs": 435,
+    "targetP95Ms": 2000,
+    "targetMet": true
+  }
+}

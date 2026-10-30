@@ -1,0 +1,7 @@
+{
+  "checkedAt": "2026-10-30T20:48:47.716Z",
+  "unchangedCopy": true,
+  "sha256": "7d12e62ec9ff222c58327449c5aba15c85e75c1ff9a1503e5862964bccafcbff",
+  "original": "../CampusFix_Programme_Manual_Data_Design.sql",
+  "copy": "db/migrations/0001_course_baseline.sql"
+}

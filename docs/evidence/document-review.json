@@ -1,0 +1,20 @@
+{
+  "reviewedAt": "2026-10-30T20:50:05.800Z",
+  "renderer": "Microsoft Word PDF export and pypdfium2",
+  "documents": [
+    {
+      "file": "word/CampusFix_Software_Implementation_Report.docx",
+      "pages": 6
+    },
+    {
+      "file": "word/CampusFix_Programme_Manual.docx",
+      "pages": 8
+    },
+    {
+      "file": "word/CampusFix_User_Manual.docx",
+      "pages": 12
+    }
+  ],
+  "visualReview": "All page PNGs reviewed. Titles, tables, figures, screenshots, numbering, and page boundaries checked.",
+  "standardRendererLimit": "The supplied render_docx.py could not run because LibreOffice is not installed. Native Microsoft Word was used for PDF layout and page images."
+}

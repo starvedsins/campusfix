@@ -1,0 +1,66 @@
+{
+  "runAt": "2026-10-30T20:46:02.700Z",
+  "scope": "Additional management, overview, list, and preferences screens on local production build. This is an automated scan, not full accessibility conformance.",
+  "results": [
+    {
+      "alias": "admin",
+      "route": "/app",
+      "heading": "Hello, Robin.",
+      "violations": []
+    },
+    {
+      "alias": "admin",
+      "route": "/app/users",
+      "heading": "Accounts",
+      "violations": []
+    },
+    {
+      "alias": "admin",
+      "route": "/app/reference",
+      "heading": "Campus directory",
+      "violations": []
+    },
+    {
+      "alias": "admin",
+      "route": "/app/audit",
+      "heading": "Audit history",
+      "violations": []
+    },
+    {
+      "alias": "admin",
+      "route": "/app/deliveries",
+      "heading": "Message delivery records",
+      "violations": []
+    },
+    {
+      "alias": "admin",
+      "route": "/app/team",
+      "heading": "Maintenance team",
+      "violations": []
+    },
+    {
+      "alias": "admin",
+      "route": "/app/settings",
+      "heading": "Preferences",
+      "violations": []
+    },
+    {
+      "alias": "student",
+      "route": "/app/notifications",
+      "heading": "Notifications",
+      "violations": []
+    },
+    {
+      "alias": "student",
+      "route": "/app/settings",
+      "heading": "Preferences",
+      "violations": []
+    },
+    {
+      "alias": "student",
+      "route": "/app/tickets",
+      "heading": "My reports",
+      "violations": []
+    }
+  ]
+}

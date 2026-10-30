@@ -1,0 +1,13 @@
+.data
+.env*
+!.env.example
+docs
+tests
+test-results
+playwright-report
+.playwright-mcp
+coverage
+db/introspection
+.agents
+skills-lock.json
+.impeccable.md

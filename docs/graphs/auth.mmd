@@ -1,0 +1,21 @@
+flowchart TD
+  n1([1 Start])
+  n2{2 Inactive?}
+  n3[3 INACTIVE]
+  n4{4 No lock?}
+  n5[5 OPEN]
+  n6{6 Lock is in future?}
+  n7[7 LOCKED]
+  n8[8 OPEN]
+  n9([9 Exit])
+  n1 --> n2
+  n2 -->|Yes| n3
+  n2 -->|No| n4
+  n3 --> n9
+  n4 -->|Yes| n5
+  n4 -->|No| n6
+  n5 --> n9
+  n6 -->|Yes| n7
+  n6 -->|No| n8
+  n7 --> n9
+  n8 --> n9

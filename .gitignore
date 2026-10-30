@@ -39,3 +39,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+!.env.example
+.data/
+.workflow-data/
+playwright-report/
+test-results/
+db/introspection/
+/.swc
+/.agents/
+/skills-lock.json
+
+.vercel
+.env*
+!.env.example

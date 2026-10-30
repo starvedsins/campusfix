@@ -1,0 +1,21 @@
+flowchart TD
+  n1([1 Start])
+  n2{2 Size is not an integer?}
+  n3[3 Reject]
+  n4{4 Size below 1?}
+  n5[5 Reject]
+  n6{6 Size above 4500000?}
+  n7[7 Reject]
+  n8[8 Accept size]
+  n9([9 Exit])
+  n1 --> n2
+  n2 -->|Yes| n3
+  n2 -->|No| n4
+  n3 --> n9
+  n4 -->|Yes| n5
+  n4 -->|No| n6
+  n5 --> n9
+  n6 -->|Yes| n7
+  n6 -->|No| n8
+  n7 --> n9
+  n8 --> n9

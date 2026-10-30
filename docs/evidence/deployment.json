@@ -1,0 +1,48 @@
+{
+  "runAt": "2026-10-30T20:48:47.713Z",
+  "url": "https://campusfix-seven-iota.vercel.app",
+  "team": "campusfix7",
+  "selectedPlans": {
+    "vercel": "Hobby",
+    "neon": "Free free_v3",
+    "blob": "Private store in iad1"
+  },
+  "healthStatus": 200,
+  "health": {
+    "status": "ok",
+    "application": "CampusFix",
+    "messageTransport": "test",
+    "storage": "private Vercel Blob"
+  },
+  "loginStatus": 200,
+  "sessionStatus": 200,
+  "sessionCookie": {
+    "secure": true,
+    "httpOnly": true,
+    "sameSiteLax": true
+  },
+  "schema": {
+    "tables": 15
+  },
+  "jobs": [
+    {
+      "kind": "AUTO_CLOSE",
+      "status": "STARTED",
+      "count": 3,
+      "linked_workflows": 3
+    },
+    {
+      "kind": "NOTIFICATIONS",
+      "status": "DONE",
+      "count": 21,
+      "linked_workflows": 21
+    }
+  ],
+  "delivery": [
+    {
+      "status": "TEST_RECORDED",
+      "count": 42
+    }
+  ],
+  "live72HourWaitObserved": false
+}

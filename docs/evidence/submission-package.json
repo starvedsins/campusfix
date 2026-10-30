@@ -1,0 +1,10 @@
+{
+  "createdAt": "2026-10-30",
+  "archive": "CampusFix_Course_Submission_2026-10-30.zip",
+  "files": 198,
+  "bytes": 12748012,
+  "sha256": "0c6253f3aa7a0a22be2479abb89bc5cd23a96d62d7f91bf05dcbf2a7814058d9",
+  "privateDataIncluded": false,
+  "dependenciesIncluded": false,
+  "setup": "Extract campusfix, run npm ci, then npm run local. See README.md."
+}

@@ -1,0 +1,21 @@
+flowchart TD
+  n1([1 Start])
+  n2{2 Another technician?}
+  n3[3 FORBIDDEN]
+  n4{4 Work not started?}
+  n5[5 NOT_STARTED]
+  n6{6 No verified proof?}
+  n7[7 MISSING_PROOF]
+  n8[8 READY]
+  n9([9 Exit])
+  n1 --> n2
+  n2 -->|Yes| n3
+  n2 -->|No| n4
+  n3 --> n9
+  n4 -->|Yes| n5
+  n4 -->|No| n6
+  n5 --> n9
+  n6 -->|Yes| n7
+  n6 -->|No| n8
+  n7 --> n9
+  n8 --> n9
